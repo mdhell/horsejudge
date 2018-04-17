@@ -1,0 +1,69 @@
+<% include ../partials/header %>
+
+<h1>¡Bienvenido!</h1>
+
+<div id="accordion">
+  <div class="card green">
+    <div class="card-header" id="headingOne">
+      <h5 class="white">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Agregar Jinete 
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-4 offset-md-2">
+      <label for="inputEmail4">Primer Nombre</label>
+      <input type="text" class="form-control" id="firstname" placeholder="Primer Nombre">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputPassword4">Apellido</label>
+      <input type="text" class="form-control" id="lastname" placeholder="Apellido">
+    </div>
+  </div>
+  <div class="form-group col-md-4 offset-md-4">
+    <label for="inputAddress">Nombre de Caballo</label>
+    <input type="text" class="form-control" id="horse" placeholder="Nombre de Caballo">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+      </div>
+    </div>
+  </div>
+  <div class="card white">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Lista de Jinetes
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Bacon ipsum dolor amet turducken reprehenderit venado voluptate qui costilla de cerdo jamón irure laboris aliquip salchicha lomo de cerdo mollit laborum. Hombro de jamón Magna, id pariatur tempor grump. Veniam biltong et, aliquip fugiat landjaeger dolore ullamco ut. En costillas de carne de laboris, mollit incididunt landjaeger pastrami voluptate ut aute labore boudin consequat rump.
+        Magna proident lorem en voluptate capicola. Boudin no costillas frankfurter. Occaecat fugiat burgdoggen aute. Andouille kielbasa enim aute shank sint ground redondo culpa cupidatat pariatur shankle short lomo. Flank nulla turkey pancetta.
+      </div>
+    </div>
+  </div>
+  <div class="card red">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Eventos
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include ../partials/footer %>
